@@ -2,12 +2,12 @@
   "name": "open-layers-split",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build --public-url . index.html",
-    "deploy:gh": "ng build --prod --base-href=/turf-polygon-slice/ && ngh"
+    "deploy:gh": "npm build --prod --base-href=/turf-polygon-slice/ && ngh"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,7 @@
     "randomcolor": "^0.5.4"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.3"
   }
 }
