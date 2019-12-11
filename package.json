@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build --public-url . index.html",
-    "deploy:gh": "npm build --prod --base-href=/turf-polygon-slice/ && ngh"
+    "build": "parcel build index.html",
+    "predeploy": "parcel build index.html --no-source-maps --public-url ./",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "randomcolor": "^0.5.4"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.7.3"
   }
