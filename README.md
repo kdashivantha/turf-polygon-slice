@@ -1,2 +1,12 @@
-# turf-polygon-slice
-Open Layers Polygon Slice Using Turf.js
+
+# polygonSlice
+
+Slices Polygon using a Linestring.
+
+inspired by:
+
+https://gis.stackexchange.com/questions/338322/splitting-a-polygon-into-multiple-polygon-by-multiple-line-strings-in-leaflet-an
+
+used in OpenLayers
+
+![](turf-polygon-split.gif)
