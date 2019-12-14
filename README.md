@@ -12,4 +12,4 @@ https://gis.stackexchange.com/questions/338322/splitting-a-polygon-into-multiple
 
 used in OpenLayers
 
-![](turf-polygon-split.gif)
+![](turf-polygon-slice.gif)
